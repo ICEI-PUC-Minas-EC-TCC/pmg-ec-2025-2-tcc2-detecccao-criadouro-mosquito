@@ -1,0 +1,133 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment files (IMPORTANT: Keep these out of Docker images)
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite3
+meubanco.db
+
+# Logs
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+.cursor/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Docker files
+Dockerfile*
+.dockerignore
+docker-compose*.yml
+.docker/
+
+# Test and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+cover/
+
+# Documentation (optional - uncomment if you don't want README in image)
+# README.md
+# *.md
+# docs/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+desktop.ini
+.directory
+
+# GCP credentials (IMPORTANT: Keep secrets out of Docker images)
+tcc-upload-secret/
+
+# Python type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+.pyrightcache/
+
+# Linting tools
+.ruff_cache/
+.pylint.d/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Other
+.python-version
+Pipfile
+Pipfile.lock
+poetry.lock
+poetry.toml
+__pypackages__/
+celerybeat-schedule
+celerybeat.pid
+pip-log.txt
+pip-delete-this-directory.txt
+
