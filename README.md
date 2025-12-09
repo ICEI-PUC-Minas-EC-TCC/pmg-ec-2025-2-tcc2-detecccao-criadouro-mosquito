@@ -37,15 +37,28 @@ Serviço especializado responsável por processar as imagens e executar o modelo
 ### [🗄️ Base de Dados](base-dados/README.md)
 Scripts e definições de infraestrutura para o banco de dados e armazenamento.
 
+## 📊 Resultados do Modelo
+
+O modelo de detecção YOLOv12 foi treinado com uma base de dados diversificada e alcançou os seguintes resultados:
+
+| Métrica      | Resultado |
+| ------------ | --------- |
+| **Precisão** | 83,93%    |
+| **Recall**   | 61,04%    |
+| **F1-Score** | 70,68%    |
+| **mAP50**    | 74,8%     |
+| **mAP75**    | 66,44%    |
+| **mAP50-95** | 57,78%    |
+
 ## 👥 Autores
 
-*   **Davidson Marra Rodrigues Vieira**
-*   **Gustavo Valadares Castro**
-*   **Matheus Santos Ferreira Costa**
-*   **Pedro Henrique Teixeira de Souza**
-*   **Rafael Henrique da Rocha Silva**
+*   **Davidson Marra Rodrigues Vieira** - davidsonmarra@gmail.com
+*   **Gustavo Valadares Castro** - tcc2025@gvcastro.com
+*   **Matheus Santos Ferreira Costa** - matheussantosfcosta@gmail.com
+*   **Pedro Henrique Teixeira de Souza** - phtsouza@gmail.com
+*   **Rafael Henrique da Rocha Silva** - rafaelehnrq@gmail.com
 
-**Orientador:** Prof. Felipe Augusto Lara Soares
+**Orientador:** Prof. Felipe Augusto Lara Soares - felipesoares@pucminas.br
 
 ---
 *Pontifícia Universidade Católica de Minas Gerais - 2025*
