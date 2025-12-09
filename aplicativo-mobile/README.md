@@ -33,7 +33,6 @@ Permitir que cidadãos participem ativamente do combate às arboviroses através
 Para testar o aplicativo, utilize as seguintes credenciais:
 
 - **Email:** `davidsonmarra@gmail.com`
-
 - **Senha:** `senha@123`
 
 ## 🖼️ Imagens do Aplicativo
@@ -108,27 +107,7 @@ Após o envio da imagem, o sistema processa a fotografia através do pipeline de
 
 - **Expo Image Picker** - Seleção de imagens da galeria
 
-### Backend
 
-- **FastAPI** - Framework Python para API REST
-
-- **Google Cloud Platform (GCP)** - Infraestrutura em nuvem
-
-  - Cloud Run - Hospedagem do backend
-
-  - Cloud SQL (PostgreSQL) - Banco de dados
-
-  - Cloud Storage - Armazenamento de imagens
-
-### Modelo de IA
-
-- **YOLOv12** - Arquitetura de detecção de objetos
-
-- **Precisão:** 83,93%
-
-- **Recall:** 61,04%
-
-- **mAP50:** 74,8%
 
 ## 📁 Estrutura do Projeto
 
@@ -234,68 +213,6 @@ npm run build:apk
 npm run build:apk-local
 ```
 
-## 📊 Resultados do Modelo
-
-O modelo de detecção YOLOv12 foi treinado com uma base de dados diversificada e alcançou os seguintes resultados:
-
-| Métrica      | Resultado |
-| ------------ | --------- |
-| **Precisão** | 83,93%    |
-| **Recall**   | 61,04%    |
-| **F1-Score** | 70,68%    |
-| **mAP50**    | 74,8%     |
-| **mAP75**    | 66,44%    |
-| **mAP50-95** | 57,78%    |
-
-### Base de Dados de Treinamento
-
-- **MosquitoFusion Dataset:** 200 imagens
-
-- **Imagens dos autores:** 55 imagens
-
-- **Imagens sintéticas (Gemini 3 Pro):** 293 imagens
-
-- **Total:** 548 imagens (974 após data augmentation)
-
-- **Divisão:** 77,73% treino, 12,96% validação, 9,31% teste
-
-### Técnicas de Aumento de Dados
-
-- Espelhamento horizontal
-
-- Rotação
-
-- Transformação afim
-
-- Ajuste de brilho e contraste
-
-- Ajuste de saturação
-
-## 👥 Autores
-
-- **Davidson Marra Rodrigues Vieira** - davidsonmarra@gmail.com
-
-- **Gustavo Valadares Castro** - tcc2025@gvcastro.com
-
-- **Matheus Santos Ferreira Costa** - matheussantosfcosta@gmail.com
-
-- **Pedro Henrique Teixeira de Souza** - phtsouza@gmail.com
-
-- **Rafael Henrique da Rocha Silva** - rafaelehnrq@gmail.com
-
-**Orientador:** Prof. Felipe Augusto Lara Soares - felipesoares@pucminas.br
-
-## 📚 Referências
-
-Este projeto foi desenvolvido como Trabalho de Conclusão de Curso em Engenharia de Computação da **Pontifícia Universidade Católica de Minas Gerais (PUC Minas)**.
-
-Para mais informações sobre o projeto completo, incluindo o portal web e o modelo de IA, consulte o repositório principal:
-
-**Repositório:** [https://github.com/ICEI-PUC-Minas-EC-TCC/pmg-ec-2025-2-tcc2-detecccao-criadouro-mosquito](https://github.com/ICEI-PUC-Minas-EC-TCC/pmg-ec-2025-2-tcc2-detecccao-criadouro-mosquito)
-
-## 📝 Licença
-
-Este projeto foi desenvolvido para fins acadêmicos como parte do Trabalho de Conclusão de Curso.
 
 ## 🤝 Contribuições
 

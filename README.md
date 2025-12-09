@@ -50,6 +50,26 @@ O modelo de detecção YOLOv12 foi treinado com uma base de dados diversificada 
 | **mAP75**    | 66,44%    |
 | **mAP50-95** | 57,78%    |
 
+### Base de Dados de Treinamento
+
+| Dataset | Total de imagens | Treino | Validação | Testes |
+| :--- | :--- | :--- | :--- | :--- |
+| MosquitoFusion | 200 | 100 (50%) | 60 (30%) | 40 (20%) |
+| Imagens dos autores | 55 | 33 (60%) | 11 (20%) | 11 (20%) |
+| Gemini 3 Pro | 293 | 293 (100%) | 0 (0%) | 0 (0%) |
+| **Total** | **548** | **426 (77,73%)** | **71 (12,96%)** | **51 (9,31%)** |
+| **Total aumentado** | **974** | **852 (87,47%)** | **71 (7,29%)** | **51 (5,24%)** |
+
+*Tabela 2 – Composição das bases de dados. Fonte: Elaborado pelos autores*
+
+### Técnicas de Aumento de Dados
+
+- Espelhamento horizontal
+- Rotação
+- Transformação afim
+- Ajuste de brilho e contraste
+- Ajuste de saturação
+
 ## 👥 Autores
 
 *   **Davidson Marra Rodrigues Vieira** - davidsonmarra@gmail.com
