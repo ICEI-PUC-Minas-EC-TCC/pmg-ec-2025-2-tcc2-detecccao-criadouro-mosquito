@@ -1,5 +1,4 @@
-# Sistema de Detecção de Potenciais Criadouros de Mosquito Aedes aegypti
-
+# Sistema de Detecção de Potenciais Criadouros de Mosquito _Aedes aegypti_
 Este projeto compõe o Trabalho de Conclusão de Curso (TCC) do curso de Engenharia de Computação da Pontifícia Universidade Católica de Minas Gerais (PUC Minas). O objetivo é fornecer uma solução integrada para auxiliar no combate ao mosquito Aedes aegypti através da detecção automática de focos de reprodução em imagens.
 
 O sistema utiliza inteligência artificial (YOLOv12) e visão computacional para identificar objetos como caixas d'água, pneus, garrafas e outros recipientes que possam acumular água parada.
